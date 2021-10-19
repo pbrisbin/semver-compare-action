@@ -1,0 +1,15 @@
+name: 'Semver Compare'
+description: 'Compare two semvers'
+inputs:
+  left-semver:
+    description: 'Left semver to compare'
+    required: true
+  right-semver:
+    description: 'Right semver to compare'
+    required: true
+outputs:
+  compare-value:
+    description: '`1` if left is greater than right. `-1` if right is greater than left. `0` if equal'
+runs:
+  using: 'node12'
+  main: 'index.js'
