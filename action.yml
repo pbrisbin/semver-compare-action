@@ -11,7 +11,7 @@ outputs:
   compare-value:
     description: '`1` if left is greater than right. `-1` if right is greater than left. `0` if equal'
 runs:
-  using: 'node12'
+  using: 'node20'
   main: 'index.js'
 branding:
   icon: 'git-commit'
